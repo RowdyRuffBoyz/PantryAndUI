@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400px"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:id="@+id/chgbtn"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:text="Add Recipe"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:id="@+id/orgFav"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:text="Organize Favorites"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="40px"
+        android:id="@+id/cancelbtn"
+        android:textColor="#ff44b2bb"
+        android:textAlignment="center"
+        android:text="Cancel"/>
+</LinearLayout>
